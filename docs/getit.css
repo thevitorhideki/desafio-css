@@ -129,7 +129,7 @@ body {
 }
 
 .card-container {
-  width: 80%;
+  width: 90%;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -137,23 +137,15 @@ body {
 }
 
 .card-container .card {
-  width: 200px;
-  min-height: 100px;
+  width: 240px;
+  min-height: 150px;
   font-family: "Permanent Marker", cursive;
-  position: relative;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
-  padding: 10px 15px;
-
-  overflow: hidden;
-
-  border-width: 0;
-  outline: none;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 6px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-
-  transition: background-color 0.3s;
 }
 
 .card-color-1 {
@@ -220,12 +212,9 @@ body {
   transform: rotate(6deg);
 }
 
-.card > * {
-  position: relative;
-}
-
 .card h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .card .card-content {
@@ -236,5 +225,6 @@ body {
 }
 
 .card p {
-  color: #2c2c2c;
+  font-size: 1.25rem;
+  color: #4c4c4c;
 }
